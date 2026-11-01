@@ -1,0 +1,17 @@
+[package]
+name = "lidrop-core"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+
+[dependencies]
+base64 = "0.22"
+getrandom = "0.3"
+image = { version = "0.25", default-features = false, features = ["jpeg", "png"] }
+mdns-sd = "0.13"
+serde_json = "1"
+socket2 = "0.5"
+zip = { version = "2", default-features = false, features = ["deflate"] }
+
+[dev-dependencies]
+tempfile = "3"

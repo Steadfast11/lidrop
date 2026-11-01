@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022E5E7738C49E27A48BC28F /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0138E228DDE5DF231A656C9F /* ShareViewController.swift */; };
+		0381235D2092BA2E8F97C2DE /* Receiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D65B5E5A6194565145A4D0 /* Receiver.swift */; };
+		06DDDFF8B8D552FB7C18CD43 /* Pair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22935CE06CCDC1DD95A20D70 /* Pair.swift */; };
+		14F1AFAB08A3C84A04022D32 /* Shaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6B2EB62D26F7D57D8DC8F3 /* Shaders.swift */; };
+		167A6D519BFD6913BEDA0F1F /* Tiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5818F8CD3AC40B851B58C6 /* Tiles.swift */; };
+		1B5DF4965714235A82C3D506 /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85DA25AF146E1322DDEA7DA /* Overlay.swift */; };
+		1F2B75CDA5020FDFA009C2AD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CE803E541BB2FF98FB66C3 /* Security.framework */; };
+		22DFF47850899C5D9A4DE0F6 /* DragTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114D479ECE2EAB8081CF4FB7 /* DragTests.swift */; };
+		26B9E503D44DD1058E6F3BDB /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F1182A304CA0E0915C839D /* Connector.swift */; };
+		295D9DF3E1AE6F10804AE31B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266FA45084EC109C41755903 /* SystemConfiguration.framework */; };
+		34C3802B36C82E8464119028 /* Tunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A1D9B8D3B2DEDEAD63878F /* Tunnel.swift */; };
+		3F0FBE9656BB9EC69A4E9542 /* Net.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B268D11824FF835366D1B /* Net.swift */; };
+		4BB46C0E7CAC8FFE84A457F0 /* Shaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6B2EB62D26F7D57D8DC8F3 /* Shaders.swift */; };
+		4F19C0C277E2B01157E243B0 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938A456EADA3564BD33913C3 /* Common.swift */; };
+		5F3F2F3B3129FBACEBE98D56 /* LidropTunnel.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6437492E69BF31EC6B6106B4 /* LidropTunnel.xcframework */; };
+		6A2791EB6E7C721CDB9D1300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5640A601917744B78853F38A /* Assets.xcassets */; };
+		6B2438FC97F372A0F09A8E56 /* Tunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A1D9B8D3B2DEDEAD63878F /* Tunnel.swift */; };
+		8D07E688BCD90DF314440229 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB0744E267A1ACD16FA8A94 /* Views.swift */; };
+		9599BFADCCA611EC63A016A9 /* Tiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5818F8CD3AC40B851B58C6 /* Tiles.swift */; };
+		A154890EDF3593C1C8B76B34 /* Drag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C96BD60BA8FFE0585AF00E /* Drag.swift */; };
+		A3CCD421F6B69822A946929A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266FA45084EC109C41755903 /* SystemConfiguration.framework */; };
+		A9ABB31892C78BC865EA504E /* Drag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C96BD60BA8FFE0585AF00E /* Drag.swift */; };
+		AC410C4518AB37383E3DC188 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CE803E541BB2FF98FB66C3 /* Security.framework */; };
+		B096381543397C4F267B3169 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AA23B4FA552696BF19B8FC /* Media.swift */; };
+		BA827CA4189AA4D284942147 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F55CC012D15DCAF3E08889 /* Light.swift */; };
+		BE3CCBE598E3056C68C06AE8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E9025243C19C505E9E1869 /* Model.swift */; };
+		C0681AECFB2E4B3854B38DCD /* LidropTunnel.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6437492E69BF31EC6B6106B4 /* LidropTunnel.xcframework */; };
+		C1B43273AA0216E093BEBCED /* Net.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6B268D11824FF835366D1B /* Net.swift */; };
+		C1D2EBB53794EA4BE94AFF9B /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F1182A304CA0E0915C839D /* Connector.swift */; };
+		C40E7341F5E439E71D700A02 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E9025243C19C505E9E1869 /* Model.swift */; };
+		CCC19D42F0E8472D4F1B5C19 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA67BBEAE6012814CAA1AA03 /* App.swift */; };
+		D8937CF449B15BA7236AFC89 /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85DA25AF146E1322DDEA7DA /* Overlay.swift */; };
+		E8F6B8FF67582B2EB282767C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938A456EADA3564BD33913C3 /* Common.swift */; };
+		EB99FAB2EE399C80AEF69BBF /* Receiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D65B5E5A6194565145A4D0 /* Receiver.swift */; };
+		EE4E55DC5963B624A679AFE8 /* LidropShare.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E2B7995D94C6402DB3AC16F0 /* LidropShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F6B21D3B2D8820D652CF8A2B /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AA23B4FA552696BF19B8FC /* Media.swift */; };
+		F9E814DC4A8172F3617B6B23 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F55CC012D15DCAF3E08889 /* Light.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51D218863E4F951A2AB10BAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D567167799080FE512DB3746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EFEBD50E503AB3DB90E23F7;
+			remoteInfo = Lidrop;
+		};
+		FA2CC87DD893C09DCF46A199 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D567167799080FE512DB3746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C68EFE89FC4A530C078BAE1;
+			remoteInfo = LidropShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA8CCE4F37B4875F68AFDD6B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EE4E55DC5963B624A679AFE8 /* LidropShare.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0138E228DDE5DF231A656C9F /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		114D479ECE2EAB8081CF4FB7 /* DragTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragTests.swift; sourceTree = "<group>"; };
+		17FD39BAFACA7FED4D10DA83 /* Lidrop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lidrop.entitlements; sourceTree = "<group>"; };
+		22935CE06CCDC1DD95A20D70 /* Pair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pair.swift; sourceTree = "<group>"; };
+		266FA45084EC109C41755903 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		34CE803E541BB2FF98FB66C3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		37E9025243C19C505E9E1869 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3E6B2EB62D26F7D57D8DC8F3 /* Shaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shaders.swift; sourceTree = "<group>"; };
+		4A6B268D11824FF835366D1B /* Net.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Net.swift; sourceTree = "<group>"; };
+		50F55CC012D15DCAF3E08889 /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		5640A601917744B78853F38A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6437492E69BF31EC6B6106B4 /* LidropTunnel.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LidropTunnel.xcframework; path = vendor/LidropTunnel.xcframework; sourceTree = "<group>"; };
+		6733E18D57F5822869201EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		69A1D9B8D3B2DEDEAD63878F /* Tunnel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tunnel.swift; sourceTree = "<group>"; };
+		7F5818F8CD3AC40B851B58C6 /* Tiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiles.swift; sourceTree = "<group>"; };
+		938A456EADA3564BD33913C3 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		9E26BC106473AE5D441A2C59 /* LidropShare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LidropShare.entitlements; sourceTree = "<group>"; };
+		A85DA25AF146E1322DDEA7DA /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
+		B5F1182A304CA0E0915C839D /* Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
+		BBB0744E267A1ACD16FA8A94 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		D0779D9D69F03BFF08160130 /* LidropUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LidropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B7995D94C6402DB3AC16F0 /* LidropShare.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = LidropShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E62A47ADD118D439FC8B4652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EA67BBEAE6012814CAA1AA03 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		F2C96BD60BA8FFE0585AF00E /* Drag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drag.swift; sourceTree = "<group>"; };
+		F4AA23B4FA552696BF19B8FC /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		F5D65B5E5A6194565145A4D0 /* Receiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receiver.swift; sourceTree = "<group>"; };
+		FA47E661F3AD37A4BE69838A /* Lidrop.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Lidrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FCF6D5C056CEC2693FE6EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0681AECFB2E4B3854B38DCD /* LidropTunnel.xcframework in Frameworks */,
+				295D9DF3E1AE6F10804AE31B /* SystemConfiguration.framework in Frameworks */,
+				AC410C4518AB37383E3DC188 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEEC2C71FE832CF7598C8E69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3F2F3B3129FBACEBE98D56 /* LidropTunnel.xcframework in Frameworks */,
+				A3CCD421F6B69822A946929A /* SystemConfiguration.framework in Frameworks */,
+				1F2B75CDA5020FDFA009C2AD /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D3D8EE1014CF0B196D7F8F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6437492E69BF31EC6B6106B4 /* LidropTunnel.xcframework */,
+				34CE803E541BB2FF98FB66C3 /* Security.framework */,
+				266FA45084EC109C41755903 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B6DC94F6AC8BBEE4350B9FF = {
+			isa = PBXGroup;
+			children = (
+				8719752E4E9E65533C149166 /* Lidrop */,
+				DF671B04D556DF1D39E628CA /* LidropShare */,
+				929D69EE01AD6D3D26C4F586 /* LidropUITests */,
+				2D3D8EE1014CF0B196D7F8F6 /* Frameworks */,
+				F4E87B2570BA0FB813DCD461 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8719752E4E9E65533C149166 /* Lidrop */ = {
+			isa = PBXGroup;
+			children = (
+				EA67BBEAE6012814CAA1AA03 /* App.swift */,
+				5640A601917744B78853F38A /* Assets.xcassets */,
+				938A456EADA3564BD33913C3 /* Common.swift */,
+				B5F1182A304CA0E0915C839D /* Connector.swift */,
+				F2C96BD60BA8FFE0585AF00E /* Drag.swift */,
+				6733E18D57F5822869201EC9 /* Info.plist */,
+				17FD39BAFACA7FED4D10DA83 /* Lidrop.entitlements */,
+				50F55CC012D15DCAF3E08889 /* Light.swift */,
+				F4AA23B4FA552696BF19B8FC /* Media.swift */,
+				37E9025243C19C505E9E1869 /* Model.swift */,
+				4A6B268D11824FF835366D1B /* Net.swift */,
+				A85DA25AF146E1322DDEA7DA /* Overlay.swift */,
+				22935CE06CCDC1DD95A20D70 /* Pair.swift */,
+				F5D65B5E5A6194565145A4D0 /* Receiver.swift */,
+				3E6B2EB62D26F7D57D8DC8F3 /* Shaders.swift */,
+				7F5818F8CD3AC40B851B58C6 /* Tiles.swift */,
+				69A1D9B8D3B2DEDEAD63878F /* Tunnel.swift */,
+				BBB0744E267A1ACD16FA8A94 /* Views.swift */,
+			);
+			path = Lidrop;
+			sourceTree = "<group>";
+		};
+		929D69EE01AD6D3D26C4F586 /* LidropUITests */ = {
+			isa = PBXGroup;
+			children = (
+				114D479ECE2EAB8081CF4FB7 /* DragTests.swift */,
+			);
+			path = LidropUITests;
+			sourceTree = "<group>";
+		};
+		DF671B04D556DF1D39E628CA /* LidropShare */ = {
+			isa = PBXGroup;
+			children = (
+				E62A47ADD118D439FC8B4652 /* Info.plist */,
+				9E26BC106473AE5D441A2C59 /* LidropShare.entitlements */,
+				0138E228DDE5DF231A656C9F /* ShareViewController.swift */,
+			);
+			path = LidropShare;
+			sourceTree = "<group>";
+		};
+		F4E87B2570BA0FB813DCD461 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA47E661F3AD37A4BE69838A /* Lidrop.app */,
+				E2B7995D94C6402DB3AC16F0 /* LidropShare.appex */,
+				D0779D9D69F03BFF08160130 /* LidropUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EFEBD50E503AB3DB90E23F7 /* Lidrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41805649CC37D79F01B9348F /* Build configuration list for PBXNativeTarget "Lidrop" */;
+			buildPhases = (
+				DC860CB2957E4857086B9806 /* Sources */,
+				E8621BA0B015A9CC9798CB49 /* Resources */,
+				BEEC2C71FE832CF7598C8E69 /* Frameworks */,
+				DA8CCE4F37B4875F68AFDD6B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E64AC2F5291D6994FDA5999 /* PBXTargetDependency */,
+			);
+			name = Lidrop;
+			packageProductDependencies = (
+			);
+			productName = Lidrop;
+			productReference = FA47E661F3AD37A4BE69838A /* Lidrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C68EFE89FC4A530C078BAE1 /* LidropShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D391580369EFF95A584E1361 /* Build configuration list for PBXNativeTarget "LidropShare" */;
+			buildPhases = (
+				2670456C1226F37DFF6EF263 /* Sources */,
+				3FCF6D5C056CEC2693FE6EF8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LidropShare;
+			packageProductDependencies = (
+			);
+			productName = LidropShare;
+			productReference = E2B7995D94C6402DB3AC16F0 /* LidropShare.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AB1F7F18FF77D1BACAED07D2 /* LidropUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B521F4ED517469111D6AFC3 /* Build configuration list for PBXNativeTarget "LidropUITests" */;
+			buildPhases = (
+				194AEA5A3284D397DA531F14 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CC77A12D2E69A165C4BA66A /* PBXTargetDependency */,
+			);
+			name = LidropUITests;
+			packageProductDependencies = (
+			);
+			productName = LidropUITests;
+			productReference = D0779D9D69F03BFF08160130 /* LidropUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D567167799080FE512DB3746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2EFEBD50E503AB3DB90E23F7 = {
+						ProvisioningStyle = Automatic;
+					};
+					8C68EFE89FC4A530C078BAE1 = {
+						ProvisioningStyle = Automatic;
+					};
+					AB1F7F18FF77D1BACAED07D2 = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2EFEBD50E503AB3DB90E23F7;
+					};
+				};
+			};
+			buildConfigurationList = 7A64CC8EB91B2FA67D1F20E4 /* Build configuration list for PBXProject "Lidrop" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7B6DC94F6AC8BBEE4350B9FF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F4E87B2570BA0FB813DCD461 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EFEBD50E503AB3DB90E23F7 /* Lidrop */,
+				8C68EFE89FC4A530C078BAE1 /* LidropShare */,
+				AB1F7F18FF77D1BACAED07D2 /* LidropUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8621BA0B015A9CC9798CB49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2791EB6E7C721CDB9D1300 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		194AEA5A3284D397DA531F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DFF47850899C5D9A4DE0F6 /* DragTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2670456C1226F37DFF6EF263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F19C0C277E2B01157E243B0 /* Common.swift in Sources */,
+				26B9E503D44DD1058E6F3BDB /* Connector.swift in Sources */,
+				A154890EDF3593C1C8B76B34 /* Drag.swift in Sources */,
+				F9E814DC4A8172F3617B6B23 /* Light.swift in Sources */,
+				F6B21D3B2D8820D652CF8A2B /* Media.swift in Sources */,
+				C40E7341F5E439E71D700A02 /* Model.swift in Sources */,
+				C1B43273AA0216E093BEBCED /* Net.swift in Sources */,
+				1B5DF4965714235A82C3D506 /* Overlay.swift in Sources */,
+				EB99FAB2EE399C80AEF69BBF /* Receiver.swift in Sources */,
+				4BB46C0E7CAC8FFE84A457F0 /* Shaders.swift in Sources */,
+				022E5E7738C49E27A48BC28F /* ShareViewController.swift in Sources */,
+				9599BFADCCA611EC63A016A9 /* Tiles.swift in Sources */,
+				6B2438FC97F372A0F09A8E56 /* Tunnel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC860CB2957E4857086B9806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC19D42F0E8472D4F1B5C19 /* App.swift in Sources */,
+				E8F6B8FF67582B2EB282767C /* Common.swift in Sources */,
+				C1D2EBB53794EA4BE94AFF9B /* Connector.swift in Sources */,
+				A9ABB31892C78BC865EA504E /* Drag.swift in Sources */,
+				BA827CA4189AA4D284942147 /* Light.swift in Sources */,
+				B096381543397C4F267B3169 /* Media.swift in Sources */,
+				BE3CCBE598E3056C68C06AE8 /* Model.swift in Sources */,
+				3F0FBE9656BB9EC69A4E9542 /* Net.swift in Sources */,
+				D8937CF449B15BA7236AFC89 /* Overlay.swift in Sources */,
+				06DDDFF8B8D552FB7C18CD43 /* Pair.swift in Sources */,
+				0381235D2092BA2E8F97C2DE /* Receiver.swift in Sources */,
+				14F1AFAB08A3C84A04022D32 /* Shaders.swift in Sources */,
+				167A6D519BFD6913BEDA0F1F /* Tiles.swift in Sources */,
+				34C3802B36C82E8464119028 /* Tunnel.swift in Sources */,
+				8D07E688BCD90DF314440229 /* Views.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E64AC2F5291D6994FDA5999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C68EFE89FC4A530C078BAE1 /* LidropShare */;
+			targetProxy = FA2CC87DD893C09DCF46A199 /* PBXContainerItemProxy */;
+		};
+		9CC77A12D2E69A165C4BA66A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EFEBD50E503AB3DB90E23F7 /* Lidrop */;
+			targetProxy = 51D218863E4F951A2AB10BAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11EBA98CD32B8DC6352785E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		16579E3E859259AC274D5A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.lidrop.ios.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lidrop;
+			};
+			name = Release;
+		};
+		39A9B6E541B477A6FFF0A346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.lidrop.ios.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lidrop;
+			};
+			name = Debug;
+		};
+		8001FEC952F8DD1BC8E3D81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A5D7304FB53ECB5CDBB163F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lidrop/Lidrop.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"vendor\"",
+				);
+				INFOPLIST_FILE = Lidrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.lidrop.ios;
+				PRODUCT_NAME = lidrop;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AE1966DFF84C417AFBF3CFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = LidropShare/LidropShare.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"vendor\"",
+				);
+				INFOPLIST_FILE = LidropShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.lidrop.ios.share;
+				PRODUCT_NAME = LidropShare;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D51DA04F2780CCE858F041ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = LidropShare/LidropShare.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"vendor\"",
+				);
+				INFOPLIST_FILE = LidropShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.lidrop.ios.share;
+				PRODUCT_NAME = LidropShare;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EAA9C108D3E14A5424C1F65C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lidrop/Lidrop.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"vendor\"",
+				);
+				INFOPLIST_FILE = Lidrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.lidrop.ios;
+				PRODUCT_NAME = lidrop;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41805649CC37D79F01B9348F /* Build configuration list for PBXNativeTarget "Lidrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D7304FB53ECB5CDBB163F7 /* Debug */,
+				EAA9C108D3E14A5424C1F65C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7A64CC8EB91B2FA67D1F20E4 /* Build configuration list for PBXProject "Lidrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8001FEC952F8DD1BC8E3D81F /* Debug */,
+				11EBA98CD32B8DC6352785E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7B521F4ED517469111D6AFC3 /* Build configuration list for PBXNativeTarget "LidropUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A9B6E541B477A6FFF0A346 /* Debug */,
+				16579E3E859259AC274D5A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D391580369EFF95A584E1361 /* Build configuration list for PBXNativeTarget "LidropShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51DA04F2780CCE858F041ED /* Debug */,
+				AE1966DFF84C417AFBF3CFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D567167799080FE512DB3746 /* Project object */;
+}

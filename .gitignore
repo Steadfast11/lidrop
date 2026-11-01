@@ -1,0 +1,14 @@
+.DS_Store
+.build/
+build/
+.gradle/
+*.iml
+.idea/
+local.properties
+xcuserdata/
+DerivedData/
+graphify-out/
+dist/
+.reference/
+ios/tunnel/target/
+PLAN.md

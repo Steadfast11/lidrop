@@ -1,0 +1,10 @@
+# lidrop for Windows: `core` is the protocol and the drawing, and builds anywhere; `app` is the thin Win32 shell.
+[workspace]
+members = ["core", "app"]
+resolver = "2"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+strip = true

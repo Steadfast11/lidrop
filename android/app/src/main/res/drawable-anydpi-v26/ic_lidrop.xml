@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The iPhone icon (ios/Lidrop/Assets.xcassets): the launcher shows the middle two thirds of these layers. -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_lidrop_bg" />
+    <foreground android:drawable="@drawable/ic_lidrop_fg" />
+</adaptive-icon>
